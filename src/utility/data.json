@@ -3,7 +3,7 @@
     {
       "heading": "Cuh Placement Cell",
       "description": "This is a Full Stack WebApp. It includes React, Redux, React-Bootstrap, Material UI, Django. In this project new opportunity is posted by co-ordinator for the students. ",
-      "githublink": "https://github.com/divyanshuan/cuh-placement-cell",
+      "githublink": "",
       "liveprojectlink": ""
     },
     {
@@ -22,26 +22,31 @@
       "heading": "Electro Tab",
       "description": "ElectroTab is a Chrome extension that transforms the way users interact with their web browser, offering an optimized new tab page for enhanced productivity. This extension simplifies multitasking by providing a unified interface for frequently visited websites, allowing users to access their favorite sites, apps, and tools instantly. With features like customizable layouts, a smart search bar, and drag-and-drop organization, ElectroTab ensures a seamless and efficient web browsing experience, reducing the need to manage multiple tabs and windows.",
       "githublink": "https://github.com/divyanshuan/Electro-Tab",
-      "liveprojectlink": ""
+      "liveprojectlink": "https://github.com/divyanshuan/Electro-Tab"
     },
     {
       "heading": "Password Manager",
       "description": "Our password manager is a secure and user-friendly solution that enables users to store, update, retrieve, and delete their passwords effortlessly. With a focus on both security and convenience, it offers a reliable way to manage sensitive login information for various accounts, enhancing digital security and streamlining online access.",
       "githublink": "https://github.com/divyanshuan/password",
-      "liveprojectlink": "https://password.mrverma.tech/"
+      "liveprojectlink": "https://github.com/divyanshuan/password"
     },
     {
       "heading": "The Pig Game",
       "description": "This is version 2  of famous simple game made with HTML, CSS and Javascript.",
       "githublink": "https://github.com/divyanshuan/the-pig-game",
-      "liveprojectlink": "https://the-pig-game-new.netlify.app/"
+      "liveprojectlink": "https://github.com/divyanshuan/the-pig-game"
     }
   ],
   "experiencedetail": [
     {
+      "companyname": "StarOps Technologies Pvt. Ltd.",
+      "description": "Software Developer Intern (Frontend)",
+      "duration": " 11 months (Oct 23 - Sept 24)"
+    },
+    {
       "companyname": "Sirom Pvt. Ltd. - Pune",
       "description": "TECH STACK - LARAVEL , PHP , JAVASCRIPT , SQL , HTML  ",
-      "duration": " 2 months (04/23 - 07/23)"
+      "duration": " 2 months (Apr 23 - Aug 23)"
     }
   ]
 }

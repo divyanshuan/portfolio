@@ -28,11 +28,12 @@ const About = () => {
       <div className="content_sec_about">
         <h1>About Me</h1>
         <p>
-          I am a full-stack web developer, pursuing my B.Tech in Computer
-          Science & Engineering from Central University of Haryana. I strive to
-          make meaningful websites with the best UI practices and I love to know
-          about technologies and pretty much excited to learn new things of
-          modern technical world.
+          I’m a Computer Science & Engineering professional, currently pursuing
+          my M.Tech at NIT Hamirpur. With experience in software development,
+          team coordination, and project management, I enjoy working on
+          practical solutions and learning about emerging technologies. I’m
+          always looking to improve my skills and contribute meaningfully in a
+          collaborative environment.
         </p>
       </div>
     </div>
