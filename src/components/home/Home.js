@@ -16,7 +16,7 @@ const Home = () => {
       <div className="name_sec">
         <h1>
           Hi, I'm <br />
-          Divyanshu Verma
+          <span itemProp="name">Divyanshu Verma</span>
         </h1>
         <div className="typingeffect">
           <TypingEffect />
@@ -49,7 +49,11 @@ const Home = () => {
         </div>
       </div>
       <div className="image_sec">
-        <img src={dp} alt="Divyanshu Verma" />
+        <img
+          src={dp}
+          alt="Divyanshu Verma - Software Developer M.Tech CSE NIT Hamirpur React.js Python JavaScript Laravel"
+          itemProp="image"
+        />
       </div>
     </div>
   );

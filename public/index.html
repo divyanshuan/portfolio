@@ -1,61 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
 
+    <!-- Performance and SEO Meta Tags -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="Divyanshu Verma" />
+    <meta name="application-name" content="Divyanshu Verma Portfolio" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://linkedin.com" />
+    <link rel="dns-prefetch" href="https://github.com" />
+    <link rel="dns-prefetch" href="https://leetcode.com" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://portfolio.divyanshuverma.dev/" />
+
     <!-- SEO Meta Description -->
     <meta
       name="description"
-      content="Divyanshu Verma is a passionate Full Stack Developer focused on building impactful, user-friendly applications. Currently pursuing MTech in CSE from NIT Hamirpur, Divyanshu is dedicated to continuously learning new technologies."
+      content="Divyanshu Verma - Software Developer & M.Tech CSE Student at NIT Hamirpur. Expert in React.js, Python, JavaScript, Laravel. View portfolio, projects, and professional experience. Contact for web development services."
     />
 
     <!-- Optimized Keywords for SEO -->
     <meta
       name="keywords"
-      content="Divyanshu Verma, Full Stack Developer, Software Developer, React.js, Django, NIT Hamirpur, MTech, Central University of Haryana, Web Development, User-Friendly Applications, Emerging Technologies, divtanshuverma.site"
+      content="Divyanshu Verma, Software Developer, React Developer, Python Developer, JavaScript Developer, Laravel Developer, NIT Hamirpur, M.Tech CSE, Portfolio, Web Development, Frontend Developer, Backend Developer, Full Stack Developer, divyanshuverma.dev"
     />
+
+    <!-- Author and Copyright -->
+    <meta name="author" content="Divyanshu Verma" />
+    <meta name="copyright" content="Divyanshu Verma" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
 
     <!-- Open Graph Tags for Social Sharing -->
     <meta
       property="og:title"
-      content="Divyanshu Verma - Full Stack Developer"
+      content="Divyanshu Verma - Software Developer | M.Tech CSE NIT Hamirpur"
     />
     <meta
       property="og:description"
-      content="Discover the work of Divyanshu Verma, a Full Stack Developer passionate about building user-friendly applications and learning new technologies. Explore his journey and technical expertise."
+      content="Portfolio of Divyanshu Verma - Software Developer specializing in React.js, Python, JavaScript, Laravel. M.Tech CSE student at NIT Hamirpur. View projects, skills, and professional experience."
     />
     <meta
       property="og:image"
-      content="https://divyanshuverma.site/Images/Divyanshu-Verma-Software-Developer.webp"
+      content="https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-Software-Developer.webp"
     />
     <meta
       property="og:image:alt"
-      content="Divyanshu Verma Full Stack Developer"
+      content="Divyanshu Verma - Software Developer and M.Tech CSE Student"
     />
-    <meta property="og:url" content="https://divyanshuverma.site/" />
+    <meta property="og:url" content="https://portfolio.divyanshuverma.dev/" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Divyanshu Verma Portfolio" />
+    <meta property="og:locale" content="en_US" />
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@divyanshuan" />
+    <meta name="twitter:creator" content="@divyanshuan" />
     <meta
       name="twitter:title"
-      content="Divyanshu Verma - Full Stack Developer"
+      content="Divyanshu Verma - Software Developer | M.Tech CSE NIT Hamirpur"
     />
     <meta
       name="twitter:description"
-      content="Explore Divyanshu Verma's journey as a Full Stack Developer. Passionate about building impactful, user-friendly applications and learning the latest in emerging technologies."
+      content="Portfolio of Divyanshu Verma - Software Developer specializing in React.js, Python, JavaScript, Laravel. M.Tech CSE student at NIT Hamirpur."
     />
     <meta
       name="twitter:image"
-      content="https://divyanshuverma.site/Images/Divyanshu-Verma-Software-Developer.webp"
+      content="https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-Software-Developer.webp"
     />
     <meta
       name="twitter:image:alt"
-      content="Divyanshu Verma Full Stack Developer"
+      content="Divyanshu Verma - Software Developer and M.Tech CSE Student"
     />
 
     <!-- Structured Data for SEO (JSON-LD) -->
@@ -64,44 +100,95 @@
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Divyanshu Verma",
-        "url": "https://divyanshuverma.site/",
+        "givenName": "Divyanshu",
+        "familyName": "Verma",
+        "url": "https://portfolio.divyanshuverma.dev/",
         "image": [
-          "https://divyanshuverma.site/Images/Divyanshu-Verma-NITH.webp",
-          "https://divyanshuverma.site/Images/Divyanshu-Verma-Photo.webp",
-          "https://divyanshuverma.site/Images/Divyanshu-Verma-Software-Developer.webp",
-          "https://divyanshuverma.site/Images/Divyanshu-verma-developer-profile.webp",
-          "https://divyanshuverma.site/Images/Divyanshu-verma-developer.webp",
-          "https://divyanshuverma.site/Images/Divyanshu-verma.webp",
-          "https://divyanshuverma.site/Images/mrverma.webp"
+          "https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-NITH.webp",
+          "https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-Photo.webp",
+          "https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-Software-Developer.webp",
+          "https://portfolio.divyanshuverma.dev/Images/Divyanshu-verma-developer-profile.webp",
+          "https://portfolio.divyanshuverma.dev/Images/Divyanshu-verma-developer.webp",
+          "https://portfolio.divyanshuverma.dev/Images/Divyanshu-verma.webp",
+          "https://portfolio.divyanshuverma.dev/Images/mrverma.webp"
         ],
-        "description": "MTech CSE student at NIT Hamirpur with a BTech in CSE from Central University of Haryana. Full Stack Developer experienced in creating impactful, user-friendly applications and continuously learning emerging technologies.",
-        "jobTitle": "Full Stack Developer",
-        "alumniOf": "Central University of Haryana",
-        "educationalCredentialAwarded": "BTech in Computer Science & Engineering",
+        "description": "Software Developer and M.Tech CSE student at NIT Hamirpur. Expert in React.js, Python, JavaScript, Laravel. Passionate about building impactful, user-friendly applications and continuously learning emerging technologies.",
+        "jobTitle": [
+          "Software Developer",
+          "Frontend Developer",
+          "Backend Developer"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "StarOps Technologies Pvt. Ltd."
+        },
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "NIT Hamirpur",
+            "description": "Currently pursuing M.Tech in Computer Science & Engineering"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Central University of Haryana",
+            "description": "Completed B.Tech in Computer Science & Engineering"
+          }
+        ],
         "knowsAbout": [
+          "Software Development",
           "Frontend Development",
+          "Backend Development",
           "Full Stack Development",
           "React.js",
-          "Django",
-          "Next.js",
-          "Tailwind CSS",
-          "Emerging Technologies"
+          "Python",
+          "JavaScript",
+          "Laravel",
+          "Node.js",
+          "MySQL",
+          "Firebase",
+          "Web Development",
+          "Mobile Development",
+          "Database Design",
+          "API Development"
         ],
         "hasOccupation": [
           {
             "@type": "JobRole",
-            "roleName": "Full Stack Developer"
+            "roleName": "Software Developer Intern",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "StarOps Technologies Pvt. Ltd."
+            }
           },
           {
             "@type": "JobRole",
-            "roleName": "Freelance Web Developer"
+            "roleName": "Software Developer",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "Sirom Pvt. Ltd."
+            }
           }
-        ]
+        ],
+        "sameAs": [
+          "https://linkedin.com/in/divyanshuan",
+          "https://github.com/divyanshuan",
+          "https://leetcode.com/divyanshuan/",
+          "https://instagram.com/divyanshuanandverma",
+          "https://www.facebook.com/divyanshu.anandverma"
+        ],
+        "email": "divyanshuvermaji@gmail.com",
+        "nationality": "Indian",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "IN"
+        }
       }
     </script>
 
     <!-- Title of the Website -->
-    <title>Divyanshu Verma - Full Stack Developer</title>
+    <title>
+      Divyanshu Verma - Software Developer | M.Tech CSE NIT Hamirpur | Portfolio
+    </title>
   </head>
   <style>
     .main {
@@ -128,38 +215,38 @@
       <a href="www.linkedin.com/in/divyanshuan"></a>
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/Divyanshu-Verma-NITH.webp"
-        alt="Divyanshu verma NIT Hamirpur"
+        src="https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-NITH.webp"
+        alt="Divyanshu Verma NIT Hamirpur M.Tech CSE Student Software Developer"
       />
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/Divyanshu-Verma-Photo.webp"
-        alt="Divyanshu verma MTech NIT Hamirpur"
+        src="https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-Photo.webp"
+        alt="Divyanshu Verma M.Tech CSE NIT Hamirpur Software Developer Portfolio"
       />
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/Divyanshu-Verma-Software-Developer.webp"
-        alt="Divyanshu verma softwere developer"
+        src="https://portfolio.divyanshuverma.dev/Images/Divyanshu-Verma-Software-Developer.webp"
+        alt="Divyanshu Verma Software Developer React.js Python JavaScript Laravel"
       />
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/Divyanshu-verma-developer-profile.webp"
-        alt="profile pic of Divyanshu verma"
+        src="https://portfolio.divyanshuverma.dev/Images/Divyanshu-verma-developer-profile.webp"
+        alt="Divyanshu Verma Developer Profile Picture Portfolio NIT Hamirpur"
       />
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/Divyanshu-verma-developer.webp"
-        alt="Divyanshu verma React Developer"
+        src="https://portfolio.divyanshuverma.dev/Images/Divyanshu-verma-developer.webp"
+        alt="Divyanshu Verma React Developer Frontend Developer Portfolio"
       />
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/Divyanshu-verma.webp"
-        alt="Divyanshu verma NIT Hamirpur library"
+        src="https://portfolio.divyanshuverma.dev/Images/Divyanshu-verma.webp"
+        alt="Divyanshu Verma NIT Hamirpur Library M.Tech CSE Student"
       />
       <img
         class="image-profile"
-        src="https://divyanshuverma.site/Images/mrverma.webp"
-        alt="Divyanshu Verma Picture"
+        src="https://portfolio.divyanshuverma.dev/Images/mrverma.webp"
+        alt="Divyanshu Verma Professional Photo Software Developer"
       />
     </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
